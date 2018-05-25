@@ -1,0 +1,35 @@
+{
+  "name": "urlparams",
+  "version": "1.0.0",
+  "description": "url params setting.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon dev.js",
+    "start": "node dest/index.js",
+    "compile": "babel src --out-dir dest",
+    "lint": "eslint src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "https",
+    "url": "git+https://github.com/mengdu/urlparams"
+  },
+  "keywords": [
+    "hot",
+    "dev",
+    "node"
+  ],
+  "author": "lanyue",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.3",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "eslint": "^4.19.1"
+  }
+}
